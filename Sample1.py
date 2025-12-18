@@ -521,4 +521,7 @@ print(f"  Total variance explained by retained PCs: {total_explained*100:.2f}%")
 
 for i, var in enumerate(explained, start=1):
     print(f"  PC{i} explains: {var*100:.2f}% variance")
+    
+    print("Working on feature-practice branch")
+
 
